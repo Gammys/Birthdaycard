@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.birthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/surprise"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:text="It's in here!!!"
+        android:textStyle="italic"
+        android:textColor="#c56170"
+        android:background="#fcd455"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+
+    <TextView
+        android:text="SURPRISE"
+        android:textColor="#330606"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="45sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
